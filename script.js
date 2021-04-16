@@ -108,7 +108,7 @@ function generate() {
             break;
           case 2:
             password += upperLetters.charAt(
-              Math.floor(Math.random() * upperIn.length)
+              Math.floor(Math.random() * upperLetters.length)
             );
             upperSTaken = true;
             break;
@@ -155,7 +155,7 @@ function generate() {
             break;
           case 2:
             password += upperLetters.charAt(
-              Math.floor(Math.random() * upperIn.length)
+              Math.floor(Math.random() * upperLetters.length)
             );
             break;
           case 3:
